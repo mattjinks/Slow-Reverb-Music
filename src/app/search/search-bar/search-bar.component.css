@@ -1,0 +1,28 @@
+.search-bar {
+  padding-left: 30px;
+  background-color: transparent;
+}
+
+.search-icon {
+  padding-right: 15px;
+}
+
+.search-bar mat-toolbar {
+  padding-left: 0px;
+  background-color: transparent;
+}
+
+.search-bar input[type="search"] {
+  height: 75%; /* Makes the input take up the entire width of its parent */
+  width: 45%;
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  background-color: rgb(223, 223, 223);
+  border: 2.5px solid rgb(29, 29, 29);  /* Adds a light grey border */
+  padding-left: 20px;
+  color: black;
+}
+
+.search-container {
+  position: relative; /* Sets up a positioning context for absolutely positioned children */
+  width: 100%;
+}

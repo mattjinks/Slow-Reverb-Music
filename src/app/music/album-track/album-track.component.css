@@ -1,0 +1,75 @@
+/* app-song.component.css */
+.song-item-playing {
+  position: relative; /* Needed for absolute positioning of the button */
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  display: flex;
+  background-color: #ffcfe0;
+}
+
+.song-item-paused {
+  position: relative; /* Needed for absolute positioning of the button */
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+
+.song-item-playing:hover {
+  background-color: #ffcfe0 /* Change to this color when hovered */
+}
+
+.song-item-paused:hover {
+  background-color: #ffcfe0 /* Change to this color when hovered */
+}
+
+.song {
+  display: flex;
+  flex-direction: column; /* Stacks the title and artist-album container */
+  justify-content: center; /* Centers content vertically */
+}
+
+.song h3 {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.song-details {
+  display: flex; /* Places artist and album side by side */
+  align-items: center; /* Aligns artist and album vertically */
+}
+
+.artist, .album {
+  margin-top: 0;
+  margin-bottom: 0; /* Removes the default margin for p and small tags */
+}
+
+.artist {
+  margin-right: 5px; /* Adds a small space between artist and album */
+}
+
+/* .large-mat-icon-button {
+  font-size: 36px;
+  height: 46px;
+  width: 46px;
+  line-height: 46px;
+  padding: 0;
+} */
+
+.play-pause {
+  font-size: 36px; /* Example size */
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  right: 4%;
+  /* top: 50%; */
+  position: absolute; /* Position absolutely within the song-item */
+}

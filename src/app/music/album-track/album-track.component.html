@@ -1,0 +1,12 @@
+<div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start start" class="{{ isPlaying ? 'song-item-playing' : 'song-item-paused' }}">
+  <div fxFlex="1 1 auto" class="song">
+    <h3>{{ song.title }}</h3>
+    <div class="song-details">
+      <p class="artist">{{ song.artist }} - </p>
+      <p class="text-muted album">{{ song.album }}</p>
+    </div>
+  </div>
+  <!-- <button mat-icon-button class="large-mat-icon-button"> -->
+  <mat-icon class="play-pause" (click)="playAudio()">{{ isPlaying? 'pause' : 'play_arrow' }}</mat-icon>
+  <!-- </button> -->
+</div>

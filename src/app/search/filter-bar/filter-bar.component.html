@@ -1,0 +1,12 @@
+<div class="filters" fxLayout="row" fxLayoutAlign="start center">
+  <button mat-stroked-button class="{{ filterSongs ? 'filter-button-on' : 'filter-button-off' }}" (click)="showSongList()">
+    Songs
+  </button>
+  <button mat-stroked-button class="{{ filterAlbums ? 'filter-button-on' : 'filter-button-off' }}" (click)="showAlbumList()">
+    Albums
+  </button>
+
+  <!-- <button mat-stroked-button class="{{ filterArtists ? 'filter-button-on' : 'filter-button-off' }}" (click)="showArtistList()">
+    Artists
+  </button> -->
+</div>

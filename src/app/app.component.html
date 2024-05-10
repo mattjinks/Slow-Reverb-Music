@@ -1,0 +1,19 @@
+<!-- <button class="play" (click)="playAudio()">PLAY</button>
+<button class="pause" (click)="pauseAudio()">PAUSE</button>
+<button class="reverbOn" (click)="reverbOn()">Reverb On</button>
+<button class="reverbOff" (click)="reverbOff()">Reverb Off</button> -->
+
+
+<div class="container">
+  <div class="audio-player">
+    <app-audio-player></app-audio-player>
+  </div>
+  <div class="content">
+    <p class="title">SLOW + REVERB MUSIC PLAYER</p>
+    <app-filter-bar></app-filter-bar>
+    <div class="scrollable-content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+

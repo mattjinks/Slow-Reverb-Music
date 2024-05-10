@@ -1,0 +1,18 @@
+<div class="album">
+  <div fxLayout="column" fxLayoutAlign="center start" class="song-list-container">
+    <div *ngFor="let track of trackList; let i = index" fxLayout="row" fxLayoutAlign="start center" class="track">
+      <div class="track-index">
+        {{ i + 1 }}
+      </div>
+      <app-album-track [song]="track"></app-album-track>
+    </div>
+  </div>
+  <div class="album-info" *ngIf="album">
+    <img src="{{ album?.cover }}" class="album-cover">
+    <div class="album-info-text">
+      <h1>{{ album.title }}</h1>
+      <p>{{ album.artist }}</p>
+      <p>{{ album.release_year }}</p>
+    </div>
+  </div>
+</div>

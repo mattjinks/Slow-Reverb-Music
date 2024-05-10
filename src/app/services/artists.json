@@ -1,0 +1,44 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Artist Name"
+    },
+    {
+      "id": 2,
+      "name": "Artist Name"
+    },
+    {
+      "id": 3,
+      "name": "Artist Name"
+    },
+    {
+      "id": 4,
+      "name": "Artist 1"
+    },
+    {
+      "id": 5,
+      "name": "Artist 1"
+    },
+    {
+      "id": 6,
+      "name": "Artist 1"
+    },
+    {
+      "id": 7,
+      "name": "Artist 1"
+    },
+    {
+      "id": 8,
+      "name": "Artist 1"
+    },
+    {
+      "id": 9,
+      "name": "Artist 1"
+    },
+    {
+      "id": 10,
+      "name": "Artist 1"
+    }
+  ]
+}

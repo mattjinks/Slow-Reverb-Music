@@ -1,0 +1,104 @@
+/* app-song.component.css */
+.song-item-playing {
+  position: relative; /* Needed for absolute positioning of the button */
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  display: flex;
+  background-color: #ffcfe0;
+}
+
+.song-item-paused {
+  position: relative; /* Needed for absolute positioning of the button */
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+
+.song-item-playing:hover {
+  background-color: #ffcfe0 /* Change to this color when hovered */
+}
+
+.song-item-paused:hover {
+  background-color: #ffcfe0 /* Change to this color when hovered */
+}
+
+.album-cover {
+  width: 36px;
+  height: 36px;
+  margin-right: 20px;
+  object-fit: cover;
+  padding-left: 2.5%;
+}
+
+.song {
+  display: flex;
+  justify-content: center; /* Centers content vertically */
+}
+
+.song h3 {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.song-details {
+  display: flex; /* Places artist and album side by side */
+  align-items: center; /* Aligns artist and album vertically */
+}
+
+.artist, .album {
+  margin-top: 0;
+  margin-bottom: 0; /* Removes the default margin for p and small tags */
+}
+
+.artist {
+  margin-right: 5px; /* Adds a small space between artist and album */
+}
+
+.play-button {
+  position: absolute; /* Position absolutely within the song-item */
+  right: 0px; /* Distance from the right edge */
+  top: 50%; /* Position at the middle vertically */
+  transform: translateY(-50%); /* Center vertically */
+  cursor: pointer;
+  border: black;
+  background: transparent;
+  cursor: pointer;
+  font-size: 50px;
+  color: rgb(29, 24, 24);
+  font-weight: lighter;
+}
+
+.bi {
+  pointer-events: none; /* Prevents icon from capturing click events */
+}
+
+.play-pause {
+  font-size: 24px; /* Example size */
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  /* top: 50%; */
+}
+
+.title-song {
+  font-weight: bold;
+}
+
+.title-artist {
+  position: absolute;
+  right: 50%;
+}
+
+.title-album {
+  position: absolute;
+  right: 5%;
+}

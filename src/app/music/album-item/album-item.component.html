@@ -1,0 +1,11 @@
+<div class="album-container" (click)="showAlbumDetails(album)">
+  <div class="content">
+    <img src= "{{ album?.cover }}" alt="{{ album.title }}">
+    <div class="text-container">
+      <p class="album-title">{{ album.title }}</p>
+      <div class="album-artist-year">
+        <p>{{ album.artist }} - {{ album.release_year }}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,106 @@
+.controls-container {
+  width: 25vw;  /* Sets the width to 1/4 of the viewport width */
+  height: 100vh; /* Sets the height to 100% of the container's height, adjust as needed */
+  background-color: rgb(29, 29, 29);  /* Example background color to make the div visible */
+  border: 0px solid #ccc;  /* Adds a light grey border */
+  box-shadow: 0 0px 0px rgba(0,0,0,0.1);  /* Adds a subtle shadow */
+
+  display: flex;
+  flex-direction: column;         /* Arrange items vertically */
+  align-items: center;             /* Center horizontally */
+  justify-content: flex-start;
+
+  padding-bottom: 0px;
+  color: rgb(196, 196, 196)
+}
+
+.play-pause {
+  font-size: 60px; /* Example size */
+  width: 60px;
+  height: 60px;
+  color: white;
+}
+
+.skip {
+  font-size: 36px; /* Example size */
+  width: 36px;
+  height: 36px;
+  color: white;
+}
+
+.large-mat-icon-button {
+  font-size: 60px;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  padding: 10; /* Adjust padding to ensure icon is centered */
+}
+
+.mat-slide-toggle.mat-accent .mat-slide-toggle-thumb {
+  background-color: #f50057 important!; /* Pink thumb */
+}
+
+.mat-slide-toggle.mat-accent .mat-slide-toggle-bar {
+  background-color: #f50057 important!; /* Pink track */
+}
+
+.song-player {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;    /* Center horizontally */
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid grey;
+}
+
+.song-player-controls {
+  /* padding-right: 1px; */
+  display: flex;
+  justify-content: space-around;   /* Distribute buttons with space around */
+  align-items: center;
+}
+
+.song-details {
+  margin-bottom: 0px;   /* Add some space below the details */
+  text-align: center;
+  padding: 0px;
+}
+
+.title {
+  padding-top: 10px;
+  color: white;
+}
+
+.album-cover {
+  width: 45%;
+  height: width;
+  object-fit: cover;
+}
+
+.reverb {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;    /* Center horizontally */
+}
+
+.speed {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;    /* Center horizontally */
+  padding-top: 30px;
+
+}
+
+.slow-reverb-controls {
+  padding-top: 50px;
+  color: white;
+}
+
+mat-slide-toggle {
+  padding-bottom: 20px;
+}
+
+mat-icon {
+  cursor: pointer;
+}

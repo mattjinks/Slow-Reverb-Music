@@ -1,0 +1,10 @@
+app-album-item {
+  display: inline-block; /* Hybrid for inline flow with width control */
+  margin-right: 36px;
+  margin-bottom: 36px;
+}
+
+.album-list {
+  margin-left: 68px;
+  margin-top: 36px;
+}

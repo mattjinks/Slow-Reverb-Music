@@ -1,0 +1,13 @@
+<!-- app-song.component.html -->
+<div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start start" class="{{ isPlaying ? 'song-item-playing' : 'song-item-paused' }}">
+  <mat-icon class="play-pause" (click)="playAudio()">{{ isPlaying? 'pause' : 'play_arrow' }}</mat-icon>
+
+  <img src="{{ song?.cover }}" alt="{{ song.title }}" class="album-cover">
+
+  <div fxFlex="1 1 auto" class="song">
+    <h3 class="title-song">{{ song.title }}</h3>
+    <h3 class="title-artist">{{ song.artist }}</h3>
+    <h3 class="title-album">{{ song.album }}</h3>
+
+  </div>
+</div>

@@ -1,0 +1,55 @@
+/* app-album-item component */
+.album-container {
+  width: 164px; /* Adjust width as necessary */
+  height: 240px;
+   /* Centers the container horizontally */
+  cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+  background-color: #ffffff; /* Default background color */
+}
+
+.album-container:hover {
+  background-color: #ffcfe0; /* Change to this color when hovered */
+}
+
+.image-container {
+  border: 2.5px solid black; /* Creates a solid border */
+  padding: 10px; /* Space between the border and the image */
+  background-color: white; /* Background color of the frame */
+}
+
+img {
+  display: block;
+  margin-bottom: 0;
+  padding: 0;
+  width: 144px; /* Ensures the image fills the container */
+  height: auto; /* Keeps the image aspect ratio intact */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%; /* Space between image and text */
+  padding: 0;
+  text-align: left;
+  width: 144px;
+}
+
+.album-title {
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+.album-artist-year {
+  display: flex;
+  margin: 0px;
+  padding: 0px
+}
+
+.content {
+  padding-top: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  height: 240px;
+}

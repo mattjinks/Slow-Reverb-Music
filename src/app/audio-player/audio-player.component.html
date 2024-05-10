@@ -1,0 +1,48 @@
+<div class="controls-container">
+
+  <div class="song-player">
+
+    <img src="{{ currentTrack?.cover }}" alt="{{ currentTrack?.title }}" class="album-cover">
+    <h2 class="title">{{ currentTrack?.title }}</h2>
+    <div class="song-details">
+      <p class="artist">{{ currentTrack?.artist }}</p>
+    </div>
+
+    <div class="song-player-controls">
+      <!-- <mat-icon class="skip">skip_previous</mat-icon> -->
+
+      <mat-icon class="play-pause" (click)="togglePlay()">{{ isPlaying? 'pause' : 'play_arrow' }}</mat-icon>
+
+      <!-- <mat-icon class="skip">skip_next</mat-icon> -->
+    </div>
+
+  </div>
+  <div class="slow-reverb-controls">
+    <div class="reverb">
+      <h1>Reverb</h1>
+      <mat-slide-toggle (change)="onToggleChange($event)"></mat-slide-toggle>
+      <mat-form-field>
+        <mat-label>Reverb</mat-label>
+        <mat-select (selectionChange)="onReverbChange($event.value)">
+          @for (reverb of reverbs; track reverb) {
+            <mat-option [value]="reverb">{{ reverb }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="speed">
+      <h1>Speed</h1>
+      <mat-form-field>
+        <mat-label>Speed</mat-label>
+        <mat-select (selectionChange)="onSpeedChange($event.value)">
+          @for (speed of speeds; track speed) {
+            <mat-option [value]="speed">{{ speed }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+  </div>
+</div>
+

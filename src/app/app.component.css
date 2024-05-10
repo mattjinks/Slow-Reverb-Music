@@ -1,0 +1,29 @@
+.container {
+  display: flex; /* Use flexbox to align children elements */
+  max-height: 100vh;
+}
+
+.audio-player {
+  flex: 1; /* Takes up 1/4 of the container */
+  max-width: 25%; /* Ensures it doesn't grow beyond 25% */
+  max-height: 100vh; /* Adjust based on your needs */
+  overflow-y: auto;  /* Enables vertical scrolling if needed */
+}
+
+.content {
+  flex: 3; /* Takes up the remaining space */
+  margin-top: 24px;
+}
+
+.title {
+  margin-left: 68px;
+  color: #f50057;
+  font-size: xx-large;
+  font-weight: lighter;
+  padding-bottom: 24px;
+}
+
+/* .scrollable-content {
+  max-height: 100vh;
+  overflow-y: auto;
+} */

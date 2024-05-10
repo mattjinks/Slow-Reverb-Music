@@ -1,0 +1,4 @@
+.library {
+  max-height: 100vh; /* Adjust based on your needs */
+  overflow-y: auto;  /* Enables vertical scrolling if needed */
+}

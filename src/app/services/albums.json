@@ -1,0 +1,76 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "artist": "Artist",
+      "title": "Album Title",
+      "genre": "Genre",
+      "release_year": 2024,
+      "cover": ""
+    },
+    {
+      "id": 2,
+      "artist": "Drake",
+      "title": "Honestly, Nevermind",
+      "genre": "Dance, Electronic",
+      "release_year": 2024,
+      "cover": ""
+    },
+    {
+      "id": 3,
+      "artist": "Drake",
+      "title": "Honestly, Nevermind",
+      "genre": "Dance, Electronic",
+      "release_year": 2024,
+      "cover": ""
+    },
+    {
+      "id": 4,
+      "artist": "Drake",
+      "title": "Honestly, Nevermind",
+      "genre": "Dance, Electronic",
+      "release_year": 2024,
+      "cover": ""
+    },
+    {
+      "id": 5,
+      "artist": "Drake",
+      "title": "Honestly, Nevermind",
+      "genre": "Dance, Electronic",
+      "release_year": 2024,
+      "cover": ""
+    },
+    {
+      "id": 7,
+      "artist": "Drake",
+      "title": "Honestly, Nevermind",
+      "genre": "Dance, Electronic",
+      "release_year": 2024,
+      "cover": ""
+    },
+    {
+      "id": 8,
+      "artist": "Drake",
+      "title": "Honestly, Nevermind",
+      "genre": "Dance, Electronic",
+      "release_year": 2024,
+      "cover": ""
+    },
+    {
+      "id": 9,
+      "artist": "Drake",
+      "title": "Honestly, Nevermind",
+      "genre": "Dance, Electronic",
+      "release_year": 2024,
+      "cover": ""
+    },
+    {
+      "id": 10,
+      "artist": "Drake",
+      "title": "Honestly, Nevermind",
+      "genre": "Dance, Electronic",
+      "release_year": 2024,
+      "cover": ""
+    }
+  ]
+}
