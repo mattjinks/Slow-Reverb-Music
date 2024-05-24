@@ -8,8 +8,8 @@ import { AlbumListComponent } from './music/album-list/album-list.component';
 const routes: Routes = [
   { path: 'song-list', component: SongListComponent },
   { path: 'album/:id', component: AlbumComponent },
+  { path: 'album-list', component: AlbumListComponent },
   { path: '', component: SongListComponent },
-  { path: 'album-list', component: AlbumListComponent }
 ];
 
 @NgModule({

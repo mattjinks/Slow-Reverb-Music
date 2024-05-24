@@ -1,0 +1,3 @@
+git remote add origin https://MusicApp@dev.azure.com/MusicApp/Slow-Reverb-MusicApp/_git/Slow-Reverb-MusicApp
+
+pm2 serve /home/site/wwwroot/dist/Slow-Reverb-Music --no-daemon
