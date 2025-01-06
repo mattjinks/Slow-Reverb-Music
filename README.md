@@ -1,7 +1,7 @@
 
 # Slow + Reverb Music Streaming Webapp
 
-This project builds a unique microservices-based music streaming web application featuring slow and reverb audio effects. Utilizing Microsoft's Azure cloud services, the application includes cloud storage solutions for media files and meta-data as well as a custom API for managing the music library. Azure Pipelines was used to automate build, push, and deployment processes. Web Audio API is integrated to accomplish the reverb and slowing audio effects.
+This project builds a unique microservices-based music playback web application featuring slow and reverb audio effects. Utilizing Microsoft's Azure cloud services, the application includes cloud storage solutions for media files and meta-data as well as a custom API for managing the music library. Azure Pipelines was used to automate build, push, and deployment processes. Web Audio API is integrated to accomplish the reverb and slowing audio effects.
 
   
 
