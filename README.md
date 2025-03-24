@@ -33,7 +33,7 @@ Docker, Azure Pipelines, Angular, TypeScript, HTML, CSS, Web Audio API
 
 ## Cloud Services & Architecture
 
-  ![enter image description here](https://drive.google.com/file/d/1fvnP1GZ_888lOEtUWsXCjLvRzWA44m7g/view?usp=drive_link)
+  ![enter image description here](src/assets/images/cloud-diagram.png)
 
   
 
@@ -74,7 +74,7 @@ This combination of Azure services empowers the project with a robust infrastruc
   
 
 
-![enter image description here](https://drive.google.com/file/d/19n2DXwpzqlq08vsQqZho2DollWrDxT1G/view?usp=drive_link)
+![enter image description here](src/assets/images/deployment-diagram.png)
   
 
 Using Azure Pipelines, I built a pipeline that runs three tasks:
@@ -116,7 +116,7 @@ Using Azure Pipelines, I built a pipeline that runs three tasks:
 *Screenshot of Web App: Library displayed as "album-list"*
 
   
-![enter image description here](https://drive.google.com/file/d/1GTpYXsKcTXo0pLVsoi3UGnsfXyNtWIXE/view?usp=drive_link)
+![enter image description here](src/assets/images/app-screenshot-2.png)
 
 
   
@@ -124,7 +124,7 @@ Using Azure Pipelines, I built a pipeline that runs three tasks:
 *Screenshot of Web App: Library displayed as "song-list"*
 
   
-![enter link description here](https://drive.google.com/file/d/1CwGMtKo2cXLwcl7bS-blRSov9AEsBm4C/view?usp=drive_link)
+![enter link description here](src/assets/images/app-screenshot.png)
 
   
 
@@ -143,7 +143,7 @@ Angular's routing module helps in handling navigation from one view to another w
 *Routes: Empty path defaults to SongListComponent*
 
   
-![enter link description here](https://drive.google.com/file/d/1wEAcWYRIFnAqM7vQV1huja1rzq1Z4CPF/view?usp=drive_link)
+![enter link description here](src/assets/images/routes.png)
 
   
 
